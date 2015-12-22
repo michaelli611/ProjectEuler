@@ -1,0 +1,1 @@
+print sum(range(1, 101))**2 - reduce(lambda a, b: a + b**2, range(1, 101), 0)
